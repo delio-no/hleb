@@ -10,8 +10,6 @@
     <title>HLEB Start Page</title>
 </head>
 <body>
-<center><h1><?php echo $todayMySql ?></h1></center>
-<br>
-<center><h1><?php echo $todayUnix ?></h1></center>
+<?php echo $response ?>
 </body>
 </html>
